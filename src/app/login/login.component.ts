@@ -57,7 +57,6 @@ export class LoginComponent implements OnInit {
         })
       )
       .subscribe((data2) => {
-        console.log('RESULTTTTT---', data2);
         this.combinedData = {
           // You can structure the combined data as needed
           //api1Data: data1,

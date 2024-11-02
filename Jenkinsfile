@@ -1,9 +1,9 @@
 pipeline {
     agent any
     
-    tools {
-        NodeJS 'NodeJS 23.1.0' // Ensure this matches the NodeJS installation name in Jenkins
-    }
+    // tools {
+    //     NodeJS 'NodeJS 23.1.0' // Ensure this matches the NodeJS installation name in Jenkins
+    // }
     
     environment {
         BUILD_DIR = "/var/lib/jenkins/workspace/angularapp-jenkins/dist/standalone-component15/browser"

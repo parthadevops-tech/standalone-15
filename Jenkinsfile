@@ -25,6 +25,10 @@ pipeline {
         
         stage('Build Angular App') {
             steps {
+                 script {
+                    def nodejsHome = tool name: 'NodeJS', type: 'jenkins.plugins.nodejs.tools.NodeJSInstallation'
+                    env.PATH = "${nodejsHome}/bin:${env.PATH}"
+                }
                 sh 'npm run build --prod'
             }
         }

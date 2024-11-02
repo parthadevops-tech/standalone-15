@@ -13,7 +13,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'master', url: 'git@github.com:parthadevops-tech/standalone-15.git'
+                git branch: 'master', url: 'https://github.com/parthadevops-tech/standalone-15.git'
             }
         }
         

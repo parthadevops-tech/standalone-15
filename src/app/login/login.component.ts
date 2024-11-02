@@ -47,7 +47,7 @@ export class LoginComponent implements OnInit {
       )
       .subscribe((authorDetails: any) => {
         console.log(authorDetails);
-        console.log("Wel come to login repo");
+        console.log("$############## Wel come to login repo $####################");
       });
 
     this.service

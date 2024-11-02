@@ -1,4 +1,4 @@
-# StandaloneComponent15
+# StandaloneComponent15 for demo purpose only the Reason
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.1.
 
